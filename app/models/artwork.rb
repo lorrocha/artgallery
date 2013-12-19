@@ -4,4 +4,5 @@ class Artwork < ActiveRecord::Base
 
   belongs_to :type
   belongs_to :artist
+  belongs_to :sale
 end

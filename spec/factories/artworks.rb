@@ -8,7 +8,7 @@ FactoryGirl.define do
     date_put_on_market "2013-12-19"
     cost 1.5
     type_id 1
-    sale_id 1
+    sale_id 3
     available true
   end
 end
