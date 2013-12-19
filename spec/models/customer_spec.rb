@@ -28,4 +28,5 @@ describe Customer do
 
     expect(customer.collections.count).to eql(2)
   end
+
 end

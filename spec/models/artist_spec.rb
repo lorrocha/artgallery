@@ -15,7 +15,6 @@ describe Artist do
   let(:style) {FactoryGirl.create(:style)}
   let(:artwork) {FactoryGirl.create(:artwork)}
 
-
   it 'calls upon the proper association when called' do
     artist.style_id = style.id
     artist.id = artwork.artist_id
