@@ -5,4 +5,6 @@ class Artwork < ActiveRecord::Base
   belongs_to :type
   belongs_to :artist
   belongs_to :sale
+  has_many :artcollections
+  has_many :collections,:through=>:artcollections
 end

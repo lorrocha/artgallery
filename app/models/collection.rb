@@ -3,4 +3,7 @@ class Collection < ActiveRecord::Base
 
   has_many :favoritecollections
   has_many :customers, :through=>:favoritecollections
+
+  has_many :artcollections
+  has_many :artworks,:through=>:artcollections
 end
